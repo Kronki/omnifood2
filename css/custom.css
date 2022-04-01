@@ -131,6 +131,12 @@
   padding: 2.4rem 4.8rem;
 }
 
+.steps-header {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
 .step-header-description {
   font-size: 1.6rem;
   font-weight: 600;
@@ -141,10 +147,22 @@
 .steps-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  row-gap: 6.4rem;
+  row-gap: 9.6rem;
   column-gap: 4.8rem;
-  justify-items: center;
   align-items: center;
+}
+
+.step-img {
+  display: flex;
+  justify-content: center;
+}
+
+.step-img img::before {
+  content: "";
+  display: block;
+  width: 60%;
+  height: 60%;
+  background-color: #fdf2e9;
 }
 
 .steps-content img{

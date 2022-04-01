@@ -73,6 +73,10 @@ body {
 .pb-lg {
   padding-bottom: 9.6rem !important;
 }
+
+.pt-lg {
+  padding-top: 9.6rem !important;
+}
 /* ----- HELPER CLASSES END ----- */
 
 .primary-header, 
