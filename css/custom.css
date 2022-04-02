@@ -284,16 +284,18 @@
 }
 
 
-/* -- gallery --*/
+/* ------- TESTIMONIALS END ------- */
 
+/* ------- GALERY START ------- */
 .galery {
   gap: 1.6rem;
   padding: 3.2rem 0;
 }
 
 .galery img {
-  max-width: 100%;
+
   display: block;
+  width: 100%;
 }
 
 .galery img:hover {
@@ -304,4 +306,36 @@
 .galery-item {
   overflow: hidden;
 }
-/* ------- TESTIMONIALS & GALERY END ------- */
+
+/* ------- GALERY END ------- */
+
+
+/* ------- MEALS START ------- */
+.meals-header {
+  text-align: center;
+}
+
+.meals-header  span{
+  display: block;
+  margin-bottom: 2.4rem;
+}
+
+.meals-footer {
+  text-align: center;
+  margin-bottom: 8rem;
+}
+
+.meal-recipes {
+  font-size: 1.8rem;
+  color:#cf711f;
+  text-decoration: none;
+  border-bottom: 1px solid #cf711f;
+}
+
+.meal-recipes:hover {
+  border: none;
+  transition: .3s;
+}
+
+/* ------- MEALS END ------- */
+
