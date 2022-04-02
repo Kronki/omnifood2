@@ -240,6 +240,10 @@
   background-color: #fdf2e9;
 }
 
+.testimonials-header {
+  padding: 3.2rem 0;
+}
+
 .author-img img {
   max-width: 25%;
   border-radius: 50%;
