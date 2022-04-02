@@ -206,3 +206,60 @@
 }
 
 /* ------- STEPS END ------- */
+
+/* ------- FEATURE-IN START ------- */
+
+.feature-in-header {
+  text-align: center;
+}
+
+.feature-in-header .step-header-description {
+  color: #888;
+}
+
+.feature-in-images {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2.4rem;
+}
+
+.feature-in-images img {
+  height: 3.2rem;
+  filter: brightness(0);
+  opacity: 50%;
+}
+
+/* ------- FEATURE-IN END ------- */
+
+
+
+
+
+/* ------- TESTIMONIALS & GALERY START ------- */
+.testimonials-galery {
+  background-color: #fdf2e9;
+}
+
+.author-img img {
+  max-width: 25%;
+  border-radius: 50%;
+}
+
+.author-testimonial {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  letter-spacing: 1.2;
+}
+
+.author-info {
+  font-size: 1.4rem;
+  color: #888;
+}
+
+
+.testimonials-body figure {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+/* ------- TESTIMONIALS & GALERY END ------- */
