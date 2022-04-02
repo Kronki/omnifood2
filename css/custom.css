@@ -264,6 +264,7 @@
 /* ------- TESTIMONIALS & GALERY START ------- */
 .testimonials-galery {
   background-color: #fdf2e9;
+  column-gap: 5rem;
 }
 
 .testimonials-header {
@@ -271,7 +272,7 @@
 }
 
 .author-img img {
-  max-width: 25%;
+  max-width: 30%;
   border-radius: 50%;
 }
 
@@ -292,4 +293,24 @@
   flex-direction: column;
   gap: 2.4rem;
 }
+
+
+.galery {
+  gap: 1.6rem;
+  padding: 3.2rem 0;
+}
+
+.galery img {
+  width: 100%;
+}
+
+.galery img:hover {
+  transition: all 0.4s;
+  transform: scale(1.1);
+}
+
+.galery-item {
+  overflow: hidden;
+}
 /* ------- TESTIMONIALS & GALERY END ------- */
+
