@@ -123,7 +123,29 @@
 
 /* ------- HERO END ------- */
 
+/* ------  FEATURES IN START --------*/
 
+.features-in-header{
+  text-align: center;
+  
+}
+
+.features-in-img {
+  display: flex;
+  justify-content: space-around;
+  padding: 2.4em;
+}
+
+.features-in-img img {
+  height: 3.2rem;
+  filter: brightness(0);
+  opacity: 50%;
+}
+
+
+
+
+/* ------  FEATURES IN END --------*/
 
 /* ------- STEPS START ------- */
 
@@ -206,3 +228,5 @@
 }
 
 /* ------- STEPS END ------- */
+
+

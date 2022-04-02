@@ -158,3 +158,29 @@ body {
   background-color: #fdf2e9;
   box-shadow: inset 0 0 0 8px #fdf2e9;
 }
+
+.grid {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 6.4rem;
+  column-gap: 4.8rem;
+}
+
+.grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+.test1 {
+  width: 50px;
+  height: 50px;
+  background-color: #cf711f;
+}
+
+.container {
+  width: 120rem;
+  margin: 0 auto;
+}
