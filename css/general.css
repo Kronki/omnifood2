@@ -114,12 +114,16 @@ body {
   margin-bottom: 1.2rem !important;
 }
 
+.padding {
+  padding: 4rem;
+}
+
 .pb-lg {
   padding-bottom: 9.6rem !important;
 }
 
 .pb-med {
-  padding-bottom: 3.2rem;
+  padding-bottom: 3.2rem !important;
 }
 
 .pb-small {
@@ -130,7 +134,9 @@ body {
   padding-top: 9.6rem !important;
 }
 
-
+.step-header-description {
+  display: block;
+}
 /* ----- HELPER CLASSES END ----- */
 
 .primary-header, 
