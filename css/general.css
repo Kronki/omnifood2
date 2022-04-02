@@ -62,6 +62,10 @@ body {
     margin: 0 auto;
 }
 
+.m-0-auto {
+  margin: 0 auto;
+}
+
 .mr-small {
   margin-right: 1.6rem !important;
 }
@@ -70,8 +74,24 @@ body {
   margin-top: 9.6rem;
 }
 
+.mb-med {
+  margin-bottom: 3.2rem;
+}
+
+.mb-small {
+  margin-bottom: 1.2rem !important;
+}
+
 .pb-lg {
   padding-bottom: 9.6rem !important;
+}
+
+.pb-med {
+  padding-bottom: 3.2rem;
+}
+
+.pb-small {
+  padding-bottom: 1.2rem;
 }
 
 .pt-lg {
