@@ -133,7 +133,7 @@
 .features-in-img {
   display: flex;
   justify-content: space-around;
-  padding: 2.4em;
+  padding: 2rem;
 }
 
 .features-in-img img {
@@ -142,6 +142,11 @@
   opacity: 50%;
 }
 
+.features-in-header .step-header-description{
+  color: #888;
+  display: inline-block;
+  padding-top: 6rem;
+}
 
 
 
@@ -230,3 +235,10 @@
 /* ------- STEPS END ------- */
 
 
+/*----- TESTIMONIALS START*/
+
+
+
+
+
+/*----- TESTIMONIALS END*/
