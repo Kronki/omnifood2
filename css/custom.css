@@ -5,7 +5,7 @@
   justify-content: space-between;
   padding: 0 4.8rem;
   background-color: #fdf2e9;
-  align-items: center; 
+  align-items: center;
   height: 9.6rem;
 }
 
@@ -14,26 +14,26 @@
 }
 
 .nav-bar .nav {
-    list-style: none;
-    display: flex;
-    gap: 3.2rem;
-    font-size: 1.6rem;
-    font-weight: 500;
+  list-style: none;
+  display: flex;
+  gap: 3.2rem;
+  font-size: 1.6rem;
+  font-weight: 500;
 }
 
-.menu:link, 
+.menu:link,
 .menu:visited {
-    text-decoration: none;
-    color: #333;
-    transition: all 0.3s ;
-    font-weight: 600;
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s;
+  font-weight: 600;
 }
 
-.menu:hover, 
+.menu:hover,
 .menu:active {
-    text-decoration: none;
-    color: #cf711f;
-    border-bottom: 3px solid currentColor;
+  text-decoration: none;
+  color: #cf711f;
+  border-bottom: 3px solid currentColor;
 }
 
 .nav {
@@ -58,8 +58,6 @@
 }
 
 /* ------- HEADER END ------- */
-
-
 
 /* ------- HERO START ------- */
 
@@ -117,7 +115,7 @@
 }
 
 .customer-desc .delivered-meal {
-  color:#cf711f;
+  color: #cf711f;
   font-weight: 600;
 }
 
@@ -125,9 +123,8 @@
 
 /* ------  FEATURES IN START --------*/
 
-.features-in-header{
+.features-in-header {
   text-align: center;
-  
 }
 
 .features-in-img {
@@ -142,13 +139,11 @@
   opacity: 50%;
 }
 
-.features-in-header .step-header-description{
+.features-in-header .step-header-description {
   color: #888;
   display: inline-block;
   padding-top: 6rem;
 }
-
-
 
 /* ------  FEATURES IN END --------*/
 
@@ -186,7 +181,7 @@
   align-items: center;
 }
 
-.step-img::before, 
+.step-img::before,
 .step-img::after {
   content: "";
   display: block;
@@ -196,7 +191,6 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
 }
 
 .step-img::before {
@@ -213,7 +207,7 @@
   background-color: #fae5d3;
 }
 
-.steps-content img{
+.steps-content img {
   width: 35%;
 }
 
@@ -224,7 +218,6 @@
   display: block;
 }
 
-
 .step-description {
   font-size: 1.8rem;
   font-weight: 500;
@@ -233,7 +226,6 @@
 }
 
 /* ------- STEPS END ------- */
-
 
 /* ------- FEATURE-IN START ------- */
 
@@ -258,8 +250,6 @@
 }
 
 /* ------- FEATURE-IN END ------- */
-
-
 
 /* ------- TESTIMONIALS & GALERY START ------- */
 .testimonials-galery {
@@ -287,7 +277,6 @@
   color: #888;
 }
 
-
 .testimonials-body figure {
   display: flex;
   flex-direction: column;
@@ -295,13 +284,16 @@
 }
 
 
+/* -- gallery --*/
+
 .galery {
   gap: 1.6rem;
   padding: 3.2rem 0;
 }
 
 .galery img {
-  width: 100%;
+  max-width: 100%;
+  display: block;
 }
 
 .galery img:hover {
@@ -313,4 +305,3 @@
   overflow: hidden;
 }
 /* ------- TESTIMONIALS & GALERY END ------- */
-
