@@ -153,16 +153,37 @@
 }
 
 .step-img {
+  position: relative;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
-.step-img img::before {
+.step-img::before, 
+.step-img::after {
   content: "";
   display: block;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.step-img::before {
   width: 60%;
-  height: 60%;
+  padding-bottom: 60%;
+  z-index: -2;
   background-color: #fdf2e9;
+}
+
+.step-img::after {
+  width: 45%;
+  padding-bottom: 45%;
+  z-index: -1;
+  background-color: #fae5d3;
 }
 
 .steps-content img{
