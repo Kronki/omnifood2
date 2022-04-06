@@ -337,5 +337,49 @@
   transition: .3s;
 }
 
+.meals-img img {
+  width: 100%;
+}
+
+.labels span {
+  display: inline-block;
+  font-size: 1.2rem;
+  padding: 0.2rem 0.8rem;
+  border-radius: 5rem;
+  font-weight: 500;  
+  margin: 1.6rem;
+}
+
+.vegan {
+  background-color: #51cf66;
+  text-transform: uppercase;
+}
+.paleo {
+  background-color: #ffd43b;
+  text-transform: uppercase;
+}
+
+
+.meals-content .ternary-header {
+  font-size: 2.4rem;
+}
+
+.meals-details {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.meals-content p {
+  font-size: 1.6rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.meals-recipie {
+  overflow: hidden;
+  border-radius: 8px;
+  max-width: 70%;
+  box-shadow: 0px 0px 5px rgb(211, 209, 209);
+}
 /* ------- MEALS END ------- */
 

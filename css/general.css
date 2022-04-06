@@ -223,3 +223,7 @@ body {
   width: 120rem;
   margin: 0 auto;
 }
+
+strong {
+  font-weight: 500 !important;
+}
