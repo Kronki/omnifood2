@@ -53,6 +53,10 @@ ion-icon {
   color: #e67e22;
 }
 
+.bg-color {
+  background-color: #FDF2E9;
+}
+
 .flex {
   display: flex;
 }
