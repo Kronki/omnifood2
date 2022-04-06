@@ -439,10 +439,6 @@
   flex-direction: column;
 }
 
-.pricing-card-body {
-  
-}
-
 .pricing-footer {
   display: flex;
   justify-content: center;
