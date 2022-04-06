@@ -424,3 +424,33 @@
 }
 
 /* ------- MEALS END ------- */
+
+/* ---- Pricing  start*/
+
+.pricing-body {
+  display: flex;
+  justify-content: center;
+  gap: 3.2rem;
+}
+
+.pricing-card-header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pricing-card-body {
+  
+}
+
+.pricing-footer {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
+/* ---- Pricing  end*/
