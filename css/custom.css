@@ -161,7 +161,7 @@
 
 .step-header-description {
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: uppercase;
   color: #cf711f;
 }
@@ -320,16 +320,12 @@
   margin-bottom: 2.4rem;
 }
 
-.meals-footer {
-  text-align: center;
-  margin-bottom: 8rem;
-}
-
 .meal-recipes {
   font-size: 1.8rem;
   color:#cf711f;
   text-decoration: none;
   border-bottom: 1px solid #cf711f;
+  font-weight: 500;
 }
 
 .meal-recipes:hover {
@@ -337,49 +333,90 @@
   transition: .3s;
 }
 
-.meals-img img {
-  width: 100%;
+.meals-recipe {
+  overflow: hidden;
+  border-radius: 11px;
+  box-shadow: 0 0 3px rgba(51,51,51, 0.3);
+}
+
+.meals-content {
+  padding: 3.2rem 4.8rem;
+}
+
+.labels {
+  display: flex;
+  gap: 0.4rem;
 }
 
 .labels span {
   display: inline-block;
   font-size: 1.2rem;
-  padding: 0.2rem 0.8rem;
-  border-radius: 5rem;
-  font-weight: 500;  
-  margin: 1.6rem;
+
+  padding: 0.4rem 0.8rem;
+  border-radius: 10rem;
+  font-weight: 500;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.vegetarian,
+.vegan,
+.paleo {
+  margin-bottom: 2rem;
+}
+
+.vegetarian {
+  background-color: #51CF66;
 }
 
 .vegan {
-  background-color: #51cf66;
-  text-transform: uppercase;
-}
-.paleo {
-  background-color: #ffd43b;
-  text-transform: uppercase;
+  background-color: #94d82d;
 }
 
+.paleo {
+  background-color: #ffd43b;
+}
 
 .meals-content .ternary-header {
   font-size: 2.4rem;
 }
 
-.meals-details {
+.meals-body {
+  margin: 9.6rem 0;
+  column-gap: 4.8rem;
+}
+
+.meals-img img{
+  width: 100%;
+}
+
+.meal-details {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
-.meals-content p {
-  font-size: 1.6rem;
+
+.meal-details p {
+  font-size: 1.8rem;
+
   display: flex;
   gap: 1rem;
 }
 
-.meals-recipie {
-  overflow: hidden;
-  border-radius: 8px;
-  max-width: 70%;
-  box-shadow: 0px 0px 5px rgb(211, 209, 209);
+.meals-footer {
+  text-align: center;
+  margin-bottom: 8rem;
 }
-/* ------- MEALS END ------- */
 
+.meals-diet div {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  font-size: 1.8rem;
+}
+
+.meals-diet span {
+  margin-right: 2rem;
+}
+
+/* ------- MEALS END ------- */

@@ -49,6 +49,10 @@ body {
 
 /* ----- HELPER CLASSES ----- */
 
+ion-icon {
+  color: #e67e22;
+}
+
 .flex {
   display: flex;
 }
@@ -78,6 +82,10 @@ body {
 .j-between-a-center {
   justify-content: space-between;
   align-items: center;
+}
+
+strong {
+  font-weight: 500;
 }
 
 .container {
