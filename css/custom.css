@@ -334,6 +334,8 @@
 }
 
 .meals-recipe {
+  transition: all 0.4s;
+  transition-timing-function: ease;
   overflow: hidden;
   border-radius: 11px;
   box-shadow: 0 0 3px rgba(51,51,51, 0.3);
@@ -341,6 +343,11 @@
 .meals-recipe:hover {
   transform: translateY(-2rem);
   transition: all 0.4s;
+}
+
+.meals-recipe:hover {
+  transform: translateY(-2rem);
+  box-shadow: none;
 }
 
 .meals-content {
@@ -415,7 +422,7 @@
 .meals-diet div {
   display: flex;
   flex-direction: column;
-  gap: 1.6rem;
+  gap: 2.8rem;
   font-size: 1.8rem;
 }
 
@@ -425,18 +432,75 @@
 
 /* ------- MEALS END ------- */
 
-/* ---- Pricing  start*/
+
+
+/* ------- PRICING & FEATURES START ------- */
+
+
+/* ------- PRICING START ------- */
+
+.pricing-card {
+  padding: 4.6rem;
+  border-radius: 11px;
+  position: relative;
+  overflow: hidden;
+}
+
+.pricing-card-header .step-header-description {
+  font-weight: 600;
+}
 
 .pricing-body {
   display: flex;
   justify-content: center;
-  gap: 3.2rem;
+  gap: 6.4rem;
+  font-size: 1.8rem;
 }
 
 .pricing-card-header {
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 2.8rem;
+}
+
+.pricing-card-body {
+  font-size: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+.pricing-card-body p {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.pricing-card .price {
+  font-size: 6.2rem;
+  font-weight: 600;
+}
+
+.pricing-card:last-child::after {
+  content: "Best Value";
+  display: inline-block;
+  position: absolute;
+  top: 6%;
+  right: -18%;
+  padding: 0.8rem 8rem;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: #333;
+  background-color: #ffd43b;
+  transform: rotate(45deg);
+  font-weight: 700;
+}
+
+.price span {
+  font-size: 3rem;
 }
 
 .pricing-footer {
@@ -445,8 +509,18 @@
 }
 
 
+/* ------- PRICING END ------- */
+
+/* ------- FEATURES START ------- */
+
+/* ------- FEATURES END ------- */
 
 
 
 
-/* ---- Pricing  end*/
+/* ------- PRICING & FEATURES END ------- */
+
+.test {
+  text-align: center;
+  margin-top: 4.8rem;
+}
