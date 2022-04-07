@@ -118,6 +118,10 @@ strong {
   margin-top: 3.2rem;
 }
 
+.mb-lg {
+  margin-bottom: 9.6rem !important;
+}
+
 .mb-med {
   margin-bottom: 3.2rem;
 }
@@ -145,12 +149,20 @@ strong {
   padding-bottom: 1.2rem;
 }
 
+.pt-med {
+  padding-top: 4.8rem !important;
+}
+
 .pt-lg {
   padding-top: 9.6rem !important;
 }
 
 .step-header-description {
   display: block;
+}
+
+.border {
+  border: 2px solid #fdf2e9;
 }
 /* ----- HELPER CLASSES END ----- */
 
