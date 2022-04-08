@@ -73,6 +73,10 @@ ion-icon {
   grid-template-columns: repeat(3,1fr);
 }
 
+.grid-5c {
+  grid-template-columns: repeat(5,1fr);
+}
+
 .grid-gaps {
   row-gap: 4.8rem;
   column-gap: 8rem;
@@ -189,7 +193,7 @@ strong {
 .btn {
   display: inline-block;
 }
-
+.btn,
 .btn:link, 
 .btn:visited {
   text-decoration: none;
