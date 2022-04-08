@@ -57,6 +57,10 @@ ion-icon {
   background-color: #FDF2E9;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
@@ -106,6 +110,11 @@ strong {
     margin: 0 auto;
 }
 
+.container {
+  max-width: 120rem !important;
+  margin: 0 auto;
+}
+
 .m-0-auto {
   margin: 0 auto;
 }
@@ -127,7 +136,7 @@ strong {
 }
 
 .mb-med {
-  margin-bottom: 3.2rem;
+  margin-bottom: 3.2rem !important;
 }
 
 .mb-small {
