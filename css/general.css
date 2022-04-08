@@ -57,6 +57,10 @@ ion-icon {
   background-color: #FDF2E9;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
@@ -71,6 +75,10 @@ ion-icon {
 
 .grid-3c {
   grid-template-columns: repeat(3,1fr);
+}
+
+.grid-5c {
+  grid-template-columns: repeat(5,1fr);
 }
 
 .grid-gaps {
@@ -102,6 +110,11 @@ strong {
     margin: 0 auto;
 }
 
+.container {
+  max-width: 120rem !important;
+  margin: 0 auto;
+}
+
 .m-0-auto {
   margin: 0 auto;
 }
@@ -123,7 +136,7 @@ strong {
 }
 
 .mb-med {
-  margin-bottom: 3.2rem;
+  margin-bottom: 3.2rem !important;
 }
 
 .mb-small {
