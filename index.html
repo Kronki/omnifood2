@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="css/general.css"/>
-    <link rel="stylesheet" href="css/custom.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;500;700&family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/general.css"/>
+    <link rel="stylesheet" href="css/custom.css"/>
+    <link rel="stylesheet" href="css/mediaqueries.css"/>
     <title>OmniFood</title>
 </head>
 <body>
@@ -29,7 +30,7 @@
 
     <main>
         <section class="hero-section pb-lg">
-            <div class="hero grid container">
+            <div class="hero grid col-12">
                 <div class="hero-description">
                     <h1 class="primary-header">A healthy meal delivered to your door, every single day</h1>
                     <p class="hero-header-description">The smart 365-days-per-year food subscription that 
@@ -57,7 +58,7 @@
             </div>
         </section>
 
-        <section class="feature-in container mt-med">
+        <section class="feature-in col-12 mt-med">
             <div class="feature-in-header">
                 <span class="step-header-description">As Featured In</span>
             </div>
@@ -90,12 +91,12 @@
                             no matter what diet you follow!</p>
                     </div>
                 </div>
-                <div class="step-img">
+                <div class="step-img first-image">
                     <img src="./content/img/app/app-screen-1.png" alt="iPhone menu">
                 </div>
 
 
-                <div class="step-img">
+                <div class="step-img second-image">
                     <img src="./content/img/app/app-screen-2.png" alt="iPhone featurebox">
                 </div>
                 <div class="step-two-content">
@@ -120,13 +121,13 @@
                             You can change delivery schedule and address daily!</p>
                     </div>
                 </div>
-                <div class="step-img">
+                <div class="step-img third-image">
                     <img src="./content/img/app/app-screen-3.png" alt="iPhone delivery">
                 </div>
             </div>
         </section>
 
-        <section class="meals container pt-lg">
+        <section class="meals col-12 pt-lg">
             <div class="meals-header">
                 <span class="step-header-description">Meals</span>
                 <h2 class="secondary-header">Omnifood AI chooses from 5,000+ recipes</h2>
@@ -212,8 +213,8 @@
             </div>
         </section>
 
-        <div class="testimonials-galery grid grid-2c ja-center padding">
-            <div class="testimonials container">
+        <div class="testimonials-galery grid grid-2c ja-center">
+            <div class="testimonials col-12">
                 <div class="testimonials-header">
                     <span class="step-header-description pb-med">Testimonials</span>
                     <h2 class="secondary-header">Once you try it, you can't go back</h2>
@@ -310,7 +311,7 @@
 
         </div>
 
-        <section class="pricing-features container mt-lg">
+        <section class="pricing-features col-12 mt-lg">
             <div class="pricing">
                 <div class="pricing-header">
                     <span class="step-header-description pb-med">Pricing</span>
@@ -404,7 +405,7 @@
             </div>
         </section>
         
-        <section class="cta container">
+        <section class="cta col-12">
             <div class="cta-form">
                 <h2 class="secondary-header">Get your first meal for free!</h2>
                 <p>Healthy, tasty and hassle-free meals are waiting for you. 
@@ -437,7 +438,7 @@
     </main>
 
     <footer class="footer">
-        <div class="footer-grid grid container">
+        <div class="footer-grid grid col-12">
             <div class="footer-item flex copyrights">
                 <a href="#" class="block logo mb-med"><img src="content/img/omnifood-logo.png" alt="Omnifood Logo"/></a>
                 <div class="flex footer-icons">
@@ -453,7 +454,7 @@
                 <p>415-201-6370
                     hello@omnifood.com</p>
             </div>
-            <div>
+            <div class="account">
                 <p class="footer-header mb-med">Account</p>
                 <div class="footer-links flex">
                     <a href="#">Create account</a>
@@ -462,7 +463,7 @@
                     <a href="#">Android app</a>
                 </div>
             </div>
-            <div>
+            <div class="company">
                 <p class="footer-header mb-med">Company</p>
                 <div class="footer-links flex">
                     <a href="#">About Omnifood</a>
@@ -471,7 +472,7 @@
                     <a href="#">Careers</a>
                 </div>
             </div>
-            <div>
+            <div class="resources">
                 <p class="footer-header mb-med">Resources</p>
                 <div class="footer-links flex">
                     <a href="#">Recipe directory</a>
