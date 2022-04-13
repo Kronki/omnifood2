@@ -57,6 +57,16 @@
   background-color: #cf711f;
 }
 
+.icon {
+  width: 3.2rem;
+  height: 3.2rem;
+  color: gray;
+}
+
+.icon[name="close-outline"] {
+  opacity: 0;
+}
+
 /* ------- HEADER END ------- */
 
 
