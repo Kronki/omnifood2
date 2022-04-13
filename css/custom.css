@@ -57,9 +57,14 @@
   background-color: #cf711f;
 }
 
+.open-nav button{
+  border: none;
+  background-color: inherit;
+}
+
 .icon {
-  width: 2.4rem;
-  height: 2.4rem;
+  width: 3.2rem;
+  height: 3.2rem;
   color: gray;
 }
 
