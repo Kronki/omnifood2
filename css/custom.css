@@ -57,9 +57,9 @@
   background-color: #cf711f;
 }
 
-.open-nav button{
+.header button{
   border: none;
-  background-color: inherit;
+  background-color: transparent;
 }
 
 .icon {
