@@ -68,6 +68,10 @@
   color: gray;
 }
 
+.header button {
+  cursor: pointer;
+}
+
 .icon[name="close-outline"] {
   display: none;
 }
